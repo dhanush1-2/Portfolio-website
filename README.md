@@ -65,10 +65,6 @@ The site is deployed on Vercel. You can deploy your own version by:
 3. Configure your deployment settings
 4. Deploy!
 
-## License
-
-This project is open source and available under the MIT License.
-
 ## Contact
 
 Dhanush Chandra Shekar
