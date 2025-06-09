@@ -39,7 +39,7 @@ const Education = () => {
                     transition={{ duration: 0.5 }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-3xl font-bold text-secondary mb-4">Education</h2>
+                    <h2 className="text-3xl font-bold text-gray-800 mb-4">Education</h2>
                     <p className="text-gray-600 max-w-2xl mx-auto">
                         Academic journey in Computer Science and Data Science
                     </p>
@@ -57,7 +57,7 @@ const Education = () => {
                         >
                             <div className="flex flex-col md:flex-row md:items-center md:justify-between">
                                 <div>
-                                    <h3 className="text-xl font-bold text-secondary">{edu.school}</h3>
+                                    <h3 className="text-xl font-bold text-gray-800">{edu.school}</h3>
                                     <p className="text-primary-600 font-semibold mt-1">{edu.degree}</p>
                                     <p className="text-gray-600 mt-1">{edu.location}</p>
                                 </div>

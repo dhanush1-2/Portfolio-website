@@ -39,7 +39,7 @@ const Experience = () => {
                     transition={{ duration: 0.5 }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-3xl font-bold text-secondary mb-4">Professional Experience</h2>
+                    <h2 className="text-3xl font-bold text-gray-800 mb-4">Professional Experience</h2>
                     <p className="text-gray-600 max-w-2xl mx-auto">
                         Building real-world solutions with data science and machine learning
                     </p>
@@ -57,7 +57,7 @@ const Experience = () => {
                         >
                             <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-6">
                                 <div>
-                                    <h3 className="text-xl font-bold text-secondary">{exp.company}</h3>
+                                    <h3 className="text-xl font-bold text-gray-800">{exp.company}</h3>
                                     <p className="text-primary-600 font-semibold mt-1">{exp.role}</p>
                                     <p className="text-gray-600 mt-1">{exp.location}</p>
                                 </div>
@@ -65,7 +65,7 @@ const Experience = () => {
                             </div>
 
                             <div className="space-y-4">
-                                <h4 className="text-lg font-semibold text-secondary">Key Achievements:</h4>
+                                <h4 className="text-lg font-semibold text-gray-800">Key Achievements:</h4>
                                 <ul className="space-y-3">
                                     {exp.achievements.map((achievement, i) => (
                                         <motion.li

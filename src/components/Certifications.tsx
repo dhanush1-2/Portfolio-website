@@ -39,7 +39,7 @@ const Certifications = () => {
                     transition={{ duration: 0.5 }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-3xl font-bold text-secondary mb-4">Certifications</h2>
+                    <h2 className="text-3xl font-bold text-gray-800 mb-4">Certifications</h2>
                     <p className="text-gray-600 max-w-2xl mx-auto">
                         Professional certifications and achievements in technology and data science
                     </p>
@@ -56,7 +56,7 @@ const Certifications = () => {
                             className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300"
                         >
                             <div className="flex flex-col h-full">
-                                <h3 className="text-xl font-bold text-secondary mb-2">{cert.title}</h3>
+                                <h3 className="text-xl font-bold text-gray-800 mb-2">{cert.title}</h3>
                                 <p className="text-primary-600 font-medium mb-1">{cert.issuer}</p>
                                 <p className="text-gray-500 text-sm mb-4">{cert.date}</p>
 

@@ -22,7 +22,7 @@ const Header = () => {
                         animate={{ opacity: 1, x: 0 }}
                         className="flex-shrink-0"
                     >
-                        <Link href="/" className="text-xl font-bold text-secondary">
+                        <Link href="/" className="text-xl font-bold text-gray-800">
                             Dhanush CS
                         </Link>
                     </motion.div>

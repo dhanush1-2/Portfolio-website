@@ -68,7 +68,7 @@ const Skills = () => {
                     transition={{ duration: 0.5 }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-3xl font-bold text-secondary mb-4">Technical Skills</h2>
+                    <h2 className="text-3xl font-bold text-gray-800 mb-4">Technical Skills</h2>
                     <p className="text-gray-600 max-w-2xl mx-auto">
                         Comprehensive expertise in data science, machine learning, and analytics
                     </p>

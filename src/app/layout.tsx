@@ -29,7 +29,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en" className={`${inter.variable} ${robotoMono.variable} scroll-smooth`}>
-            <body className="font-sans antialiased bg-white text-secondary">
+            <body className="font-sans antialiased bg-white text-gray-800">
                 <div className="flex flex-col min-h-screen">
                     <main className="flex-grow">
                         {children}
