@@ -23,7 +23,7 @@ const projects: Project[] = [
             "Created interactive web UI for instant predictions",
             "Developed comprehensive logging and monitoring system"
         ],
-        github: "https://github.com/dhanush1-2/ChurnMaster-Pro"
+        github: "https://github.com/dhanush1-2/End-to-End-ML-Project.git"
     },
     {
         title: "Finance Article Q&A App",
